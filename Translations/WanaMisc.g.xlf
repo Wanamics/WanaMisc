@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="WanaMisc">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4242647264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4242647264 - Method 1164095015 - NamedType 4185596797" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to define %1 dim. as mandatory for each 'Income' G/L account?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Method SetIncomeGLAccGlobDim - NamedType ConfirmEnable</note>
+        </trans-unit>
+        <trans-unit id="Table 4242647264 - Method 1164095015 - NamedType 3089505866" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do-you want to disable value posting of dimension %1 for Income G/L Accounts?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Method SetIncomeGLAccGlobDim - NamedType ConfirmDisable</note>
+        </trans-unit>
+        <trans-unit id="Table 4242647264 - Field 3877364928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Glob. Dim. 1 Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Income Glob. Dim. 1 Mand. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4242647264 - Field 2217404009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Glob. Dim. 2 Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Income Glob. Dim. 2 Mand. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4242647264 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3673123032 - Method 832324968 - NamedType 353853290" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must be Customer or Vendor for unrealized VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan VAT Events - Method OnBeforeInsertVAT - NamedType MustBeCustomerOrVendorForUnrealizedVAT</note>
+        </trans-unit>
+        <trans-unit id="Report 3676187681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3676187681 - Method 36190024 - NamedType 1417930510" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do-you want to create an Excel book for %1 %2(s)?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Method Export - NamedType ltConfirm</note>
+        </trans-unit>
+        <trans-unit id="Report 3676187681 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Next No. Series Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - ReportDataItem 913177062 - Method 3715240 - NamedType 4288424883" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 "%2" processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - ReportDataItem No. Series Line - Method OnPostDataItem - NamedType DoneMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - ReportDataItem 913177062 - Method 72583909 - NamedType 2989294795" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReplaceBy is required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - ReportDataItem No. Series Line - Method OnPreDataItem - NamedType ReplaceByIsRequiredErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - ReportDataItem 913177062 - Method 72583909 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to set next line for %1 "%2"?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - ReportDataItem No. Series Line - Method OnPreDataItem - NamedType ConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - Control 207805549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control NextStartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - Control 207805549 - Method 2126772001 - NamedType 1351735234" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Must be greater then starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control NextStartingDate - Method OnValidate - NamedType MustBeGTStaringDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - Control 3971477682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace %1 by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control Replace1By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - Control 2123698663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace %2 by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control Replace2By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964510777 - Control 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control StartingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 345082808 - Control 409105504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Income Glob. Dim. 1 Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Setup - Control wan Income Glob. Dim. 1 Mand. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 345082808 - Control 993772425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Income Glob. Dim. 2 Mandatory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Setup - Control wan Income Glob. Dim. 2 Mand. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3346869136 - Action 2134149939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1351594800">
+          <source>Set Next No. Series Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan No. Series - Action wanSetNextNoSeriesLine - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
