@@ -1,22 +1,25 @@
 codeunit 87050 "wan Global Dimension Events"
 {
     [EventSubscriber(ObjectType::Table, Database::"G/L Account", 'OnAfterInsertEvent', '', False, False)]
-    local procedure OnAfterInsertGLAccount(Rec: Record "G/L Account")
+    local procedure OnAfterInsertGLAccount(var Rec: Record "G/L Account")
     var
         GLSetup: Record "General Ledger Setup";
     begin
+        if Rec.IsTemporary then
+            exit;
         if Rec."Income/Balance" = Rec."Income/Balance"::"Income Statement" then
             Rec.Validate("Income/Balance");
     end;
 
     [EventSubscriber(ObjectType::Table, Database::"G/L Account", 'OnAfterValidateEvent', 'Income/Balance', False, False)]
-    local procedure OnAfterValidateIncomeBalance(Rec: Record "G/L Account"; xRec: Record "G/L Account"; CurrFieldNo: Integer)
+    local procedure OnAfterValidateIncomeBalance(var Rec: Record "G/L Account"; var xRec: Record "G/L Account"; CurrFieldNo: Integer)
     var
         GLSetup: Record "General Ledger Setup";
         Setup: Record "wan Global Dimension Setup";
     begin
         if Rec."Income/Balance" = Rec."Income/Balance"::"Income Statement" then begin
-            Setup.Get();
+            if not Setup.Get() then
+                exit;
             if Setup."Income Glob. Dim. 1 Mand." then
                 SetDefaultDimMandatory(DATABASE::"G/L Account", Rec."No.", GLSetup."Global Dimension 1 Code");
             if Setup."Income Glob. Dim. 2 Mand." then
@@ -71,7 +74,8 @@ codeunit 87050 "wan Global Dimension Events"
         Setup: Record "wan Global Dimension Setup";
         Line: Record "Sales Line";
     begin
-        Setup.Get();
+        if not Setup.Get() then
+            exit;
         Line.SetRange("Document Type", SalesHeader."Document Type");
         Line.SetRange("Document No.", SalesHeader."No.");
         Line.SetFilter(Quantity, '<>0');
@@ -106,7 +110,8 @@ codeunit 87050 "wan Global Dimension Events"
         Setup: Record "wan Global Dimension Setup";
         Line: Record "Purchase Line";
     begin
-        Setup.Get();
+        if not Setup.Get() then
+            exit;
         Line.SetRange("Document Type", pPurchaseHeader."Document Type");
         Line.SetRange("Document No.", pPurchaseHeader."No.");
         Line.SetFilter(Quantity, '<>0');
@@ -130,7 +135,10 @@ codeunit 87050 "wan Global Dimension Events"
     var
         Setup: Record "wan Global Dimension Setup";
     begin
-        Setup.Get();
+        if ItemJournalLine."Journal Template Name" = '' then
+            exit;
+        if not Setup.Get() then
+            exit;
         if Setup."Income Glob. Dim. 1 Mand." then
             ItemJournalLine.TestField("Shortcut Dimension 1 Code");
         if Setup."Income Glob. Dim. 2 Mand." then
@@ -142,7 +150,10 @@ codeunit 87050 "wan Global Dimension Events"
     var
         Setup: Record "wan Global Dimension Setup";
     begin
-        Setup.Get();
+        if JobJnlLine."Journal Template Name" = '' then
+            exit;
+        if not Setup.Get() then
+            exit;
         if Setup."Income Glob. Dim. 1 Mand." then
             JobJnlLine.TestField("Shortcut Dimension 1 Code");
         if Setup."Income Glob. Dim. 2 Mand." then

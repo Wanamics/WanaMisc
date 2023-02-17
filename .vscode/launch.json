@@ -1,14 +1,13 @@
 {
     "version": "0.2.0",
     "configurations": [
-/*
         {
-            "name": "Wanamics Development",
+            "name": "Wanamics Canada",
             "request": "launch",
             "type": "al",
             "server": "https://businesscentral.dynamics.com/",
             "environmentType": "Sandbox",
-            "environmentName": "Development",
+            "environmentName": "Canada",
             "tenant": "e58e4362-4ba1-46f8-b9da-326a8fa42dc7",
             "port": 7049,
             "authentication": "AAD",
@@ -28,14 +27,13 @@
             "environmentType": "Sandbox",
             "environmentName": "DevGervois",
             "startupObjectType": "Page",
-            "startupObjectId": 39,
+            "startupObjectId": 556,
             //"schemaUpdateMode": "ForceSync",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true
         },
-    */
         {
             "name": "SYN Development",
             "request": "launch",
