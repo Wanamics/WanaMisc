@@ -39,35 +39,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1125700311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1003046996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Self Usage Account</source>
           <target>Compte livraison à soi-même</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Self Usage Account - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1125700311 - Field 1602339052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1003046996 - Field 1602339052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FA Subclass Code</source>
           <target>Code sous-classe immo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Self Usage Account - Field FA Subclass Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field FA Subclass Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1125700311 - Field 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1003046996 - Field 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Posting Group</source>
           <target>Groupe compta. marché</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Self Usage Account - Field Gen. Bus. Posting Group - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Gen. Bus. Posting Group - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1125700311 - Field 1634984648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1003046996 - Field 1634984648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice Disc. Account No.</source>
           <target>Compte remise facture</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Self Usage Account - Field Invoice Disc. Account No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Invoice Disc. Account No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1125700311 - Field 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1003046996 - Field 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Category Code</source>
           <target>Code catégorie article</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Self Usage Account - Field Item Category Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Item Category Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 1815343931 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
           <source>The StringPrintLength function in CodeUnit 10025 only works for font sizes from 7 through 10.</source>
@@ -81,29 +81,29 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan VAT Events - Method OnBeforeInsertVAT - NamedType MustBeCustomerOrVendorForUnrealizedVAT</note>
         </trans-unit>
-        <trans-unit id="Page 1625941538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2788995989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Self Usage Accounts</source>
           <target>Comptes livraison à soi-même</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page WanaMisc Self Usage Accounts - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1625941538 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2788995989 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
           <target>Spécifie la valeur du groupe compta marché.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page WanaMisc Self Usage Accounts - Control Gen. Bus. Posting Group - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Gen. Bus. Posting Group - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1625941538 - Control 1634984648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2788995989 - Control 1634984648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Invoice Disc. Account No. field.</source>
           <target>Spécifie la valeur du N° compte remise facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page WanaMisc Self Usage Accounts - Control Invoice Disc. Account No. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Invoice Disc. Account No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1625941538 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2788995989 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Dimension Value field.</source>
           <target>Spécifie la valeur de la section analytique.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page WanaMisc Self Usage Accounts - Control Item Category Code - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Item Category Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3404342574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial Balance, per Global Dimension</source>
@@ -1010,6 +1010,12 @@
           <target>Axe 2 oblig. sur comptes de 'Gestion'</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Setup - Control wan Income Glob. Dim. 2 Mand. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3307690539 - Action 1529028993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 320642379">
+          <source>Inv. Disc. Acc. per Item Category</source>
+          <target>Compte rem. fact. par catégorie article</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Posting Setup - Action wanSelfUsageInvDiscAccounts - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3346869136 - Action 2134149939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1351594800">
           <source>Set Next No. Series Line</source>

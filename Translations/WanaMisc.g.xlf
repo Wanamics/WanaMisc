@@ -838,6 +838,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Setup - Control wan Income Glob. Dim. 2 Mand. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3307690539 - Action 1529028993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 320642379">
+          <source>Inv. Disc. Acc. per Item Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Posting Setup - Action wanSelfUsageInvDiscAccounts - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3346869136 - Action 2134149939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1351594800">
           <source>Set Next No. Series Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
