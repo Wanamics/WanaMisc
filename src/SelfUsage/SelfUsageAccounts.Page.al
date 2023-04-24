@@ -1,8 +1,8 @@
-page 87059 "WanaMisc Self Usage Accounts"
+page 87059 "wan Self Usage Accounts"
 {
     Caption = 'Self Usage Accounts';
     PageType = List;
-    SourceTable = "WanaMisc Self Usage Account";
+    SourceTable = "wan Self Usage Account";
     UsageCategory = Lists;
     ApplicationArea = All;
 

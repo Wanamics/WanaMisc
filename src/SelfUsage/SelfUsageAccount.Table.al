@@ -1,4 +1,4 @@
-table 87059 "WanaMisc Self Usage Account"
+table 87059 "wan Self Usage Account"
 {
     Caption = 'Self Usage Account';
     DataClassification = ToBeClassified;
