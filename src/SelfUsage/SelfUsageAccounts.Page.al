@@ -3,7 +3,6 @@ page 87059 "wan Self Usage Accounts"
     Caption = 'Self Usage Accounts';
     PageType = List;
     SourceTable = "wan Self Usage Account";
-    UsageCategory = Lists;
     ApplicationArea = All;
 
     layout
