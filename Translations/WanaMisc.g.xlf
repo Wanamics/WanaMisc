@@ -848,6 +848,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan No. Series - Action wanSetNextNoSeriesLine - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3680379754 - Control 595961814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Specifies the value of the Self Usage Customer No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Sales &amp; Receivables Setup - Control wan Self Usage Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3680379754 - Field 595961814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Self Usage Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales &amp; Receivables Setup - Field wan Self Usage Customer No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 1094897438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>WanaMisc Dimensions</source>
           <note from="Developer" annotates="general" priority="2"></note>
