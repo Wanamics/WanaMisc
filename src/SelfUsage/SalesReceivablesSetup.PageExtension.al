@@ -8,6 +8,7 @@ pageextension 87058 "wan Sales & Receivables Setup" extends "Sales & Receivables
             {
                 ApplicationArea = All;
                 ToolTip = 'Specifies the value of the Self Usage Customer No. field.';
+                Visible = false;
             }
         }
     }
