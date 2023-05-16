@@ -7,7 +7,7 @@ tableextension 87058 "wan Sales & Receivables Setup" extends "Sales & Receivable
             Caption = 'Self Usage Customer No.';
             DataClassification = ToBeClassified;
             TableRelation = Customer;
-            //ValidateTableRelation = false;
+            ValidateTableRelation = false;
         }
     }
 }
