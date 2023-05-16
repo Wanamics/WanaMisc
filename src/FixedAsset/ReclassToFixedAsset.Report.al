@@ -104,7 +104,7 @@ report 87057 "wan Reclass to Fixed Asset"
         RecRef: RecordRef;
         FASetup: Record "FA Setup";
         FADepreciationBook: Record "FA Depreciation Book";
-        FASubclass: Record "FA Subclass";
+        //FASubclass: Record "FA Subclass";
         DimMgt: Codeunit DimensionManagement;
         DimensionSetEntry: Record "Dimension Set Entry" temporary;
         DefaultDimension: Record "Default Dimension";
@@ -130,17 +130,19 @@ report 87057 "wan Reclass to Fixed Asset"
         FADepreciationBook.Validate("FA No.", pFixedAsset."No.");
         FADepreciationBook.Validate("Depreciation Book Code", FASetup."Default Depr. Book");
         FADepreciationBook.Validate("FA Posting Group", pFixedAsset."FA Posting Group");
-        FASubclass.Get(FixedAsset."FA Subclass Code");
-        FADepreciationBook.Validate("Depreciation Method", FASubclass."wan Def. Depreciation Method");
+        //FADepreciationBook.Validate("Depreciation Method", FASubclass."wan Def. Depreciation Method");
         FADepreciationBook.Validate("Acquisition Date", pGLEntry."Posting Date");
         FADepreciationBook.Validate("G/L Acquisition Date", pGLEntry."Posting Date");
         FADepreciationBook.Validate("Depreciation Starting Date", pGLEntry."Posting Date");
+        /*
+        FASubclass.Get(FixedAsset."FA Subclass Code");
         if FASubclass."wan Def. No. of Deprec. Years" <> 0 then
             FADepreciationBook.Validate("No. of Depreciation Years", FASubclass."wan Def. No. of Deprec. Years");
         if FASubclass."wan Def. No. of Deprec. Months" <> 0 then
             FADepreciationBook.Validate("No. of Depreciation Months", FASubclass."wan Def. No. of Deprec. Months");
         if FASubclass."wan Def. Declining-Balance %" <> 0 then
             FADepreciationBook.Validate("Declining-Balance %", FASubclass."wan Def. Declining-Balance %");
+        */
         FADepreciationBook.Insert(true);
     end;
 }

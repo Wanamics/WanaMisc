@@ -28,8 +28,8 @@
             "serverInstance": "LORCA2_DEV",
             "port": 7469,
             "authentication": "Windows",
-            //"startupObjectId": 50023,
             "startupObjectType": "Page",
+            "startupObjectId": 5601,
             "breakOnError": true,
             "launchBrowser": true,
             //"schemaUpdateMode": "ForceSync"
