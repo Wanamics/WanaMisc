@@ -753,15 +753,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4009280456 - ReportDataItem 4220596153 - Method 72583909 - NamedType 2769682546" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4009280456 - ReportDataItem 2825951060 - Method 72583909 - NamedType 2769682546" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must select fixed asset OR Template Code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - ReportDataItem GLEntry - Method OnPreDataItem - NamedType SelectFixedAssetOrTemplateErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - ReportDataItem G/L Entry - Method OnPreDataItem - NamedType SelectFixedAssetOrTemplateErr</note>
         </trans-unit>
-        <trans-unit id="Report 4009280456 - ReportDataItem 4220596153 - Method 72583909 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4009280456 - ReportDataItem 2825951060 - Method 72583909 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to reclassify %1 "%2" to %3 %4?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - ReportDataItem GLEntry - Method OnPreDataItem - NamedType ConfirmLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - ReportDataItem G/L Entry - Method OnPreDataItem - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4009280456 - Control 1991001892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control FA No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4009280456 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4009280456 - Control 3379441404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset Template</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control Template - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3676187681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining VAT</source>
@@ -823,6 +838,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control StartingDate - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 320219805 - Control 2774844873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3681709245">
+          <source>Specifies the value of the Declining-Balance % field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan FA Subclasses - Control Declining-Balance % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 320219805 - Control 162280418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3681709245">
+          <source>Specifies the value of the Depreciation Method field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan FA Subclasses - Control Depreciation Method - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 320219805 - Control 3186494837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3681709245">
+          <source>Specifies the value of the No. of Depreciation Years field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan FA Subclasses - Control No. of Depreciation Years - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2803858443 - Action 1054655392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
           <source>Reclass to Fixed Asset</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -852,6 +882,26 @@
           <source>Specifies the value of the Self Usage Customer No. field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Sales &amp; Receivables Setup - Control wan Self Usage Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 203297647 - Field 3742336034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
+          <source>Def. Declining-Balance %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. Declining-Balance % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 203297647 - Field 2877258617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
+          <source>Def. Depreciation Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. Depreciation Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 203297647 - Field 2891701665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
+          <source>Def. No. of Depreciation Months</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. No. of Deprec. Months - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 203297647 - Field 4018060124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
+          <source>Def. No. of Depreciation Years</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. No. of Deprec. Years - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3680379754 - Field 595961814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Self Usage Customer No.</source>

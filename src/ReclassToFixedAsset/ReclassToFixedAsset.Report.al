@@ -5,7 +5,7 @@ report 87057 "wan Reclass to Fixed Asset"
     Permissions = tabledata "G/L Entry" = m;
     dataset
     {
-        dataitem(GLEntry; "G/L Entry")
+        dataitem("G/L Entry"; "G/L Entry")
         {
             DataItemTableView = sorting("Entry No.");
             trigger OnPreDataItem()
@@ -30,19 +30,21 @@ report 87057 "wan Reclass to Fixed Asset"
                 Reversed := true;
                 Modify(true);
 
-                GenJournalLine.Validate("Source Code", GLEntry."Source Code");
-                if NewPostingDate = 0D then
-                    GenJournalLine.Validate("Posting Date", GLEntry."Posting Date");
-                GenJournalLine.Validate("Document No.", GLEntry."Document No.");
-                GenJournalLine.Validate("Document Date", GLEntry."Document Date");
-                GenJournalLine.Validate("Account No.", GLEntry."G/L Account No.");
+                GenJournalLine.Validate("Source Code", "Source Code");
+                if NewPostingDate <> 0D then
+                    GenJournalLine.Validate("Posting Date", NewPostingDate)
+                else
+                    GenJournalLine.Validate("Posting Date", "Posting Date");
+                GenJournalLine.Validate("Document No.", "Document No.");
+                GenJournalLine.Validate("Document Date", "Document Date");
+                GenJournalLine.Validate("Account No.", "G/L Account No.");
                 GenJournalLine.Validate("Gen. Posting Type", GenJournalLine."Gen. Posting Type"::" ");
                 GenJournalLine.Validate("Gen. Bus. Posting Group", '');
                 GenJournalLine.Validate("Gen. Prod. Posting Group", '');
                 GenJournalLine.Validate("VAT Bus. Posting Group", '');
                 GenJournalLine.Validate("VAT Prod. Posting Group", '');
-                GenJournalLine.Validate(Description, GLEntry.Description);
-                GenJournalLine.Validate(Amount, -GLEntry.Amount);
+                GenJournalLine.Validate(Description, Description);
+                GenJournalLine.Validate(Amount, -Amount);
                 GenJournalLine.Validate(Correction, true);
                 GenJournalLine.Validate("Bal. Account Type", GenJournalLine."Account Type"::"Fixed Asset");
                 GenJournalLine.Validate("Bal. Account No.", FixedAsset."No.");
@@ -65,16 +67,19 @@ report 87057 "wan Reclass to Fixed Asset"
                 {
                     field("FA No."; FixedAsset."No.")
                     {
+                        Caption = 'Fixed Asset No.';
                         ApplicationArea = All;
                         TableRelation = "Fixed Asset";
                     }
                     field("Template"; ConfigTemplateHeader.Code)
                     {
+                        Caption = 'Fixed Asset Template';
                         ApplicationArea = All;
                         TableRelation = "Config. Template Header".Code where("Table ID" = const(Database::"Fixed Asset"));
                     }
                     field(PostingDate; NewPostingDate)
                     {
+                        Caption = 'Posting Date';
                         ApplicationArea = All;
                     }
                 }
@@ -99,6 +104,7 @@ report 87057 "wan Reclass to Fixed Asset"
         RecRef: RecordRef;
         FASetup: Record "FA Setup";
         FADepreciationBook: Record "FA Depreciation Book";
+        FASubclass: Record "FA Subclass";
         DimMgt: Codeunit DimensionManagement;
         DimensionSetEntry: Record "Dimension Set Entry" temporary;
         DefaultDimension: Record "Default Dimension";
@@ -106,7 +112,7 @@ report 87057 "wan Reclass to Fixed Asset"
         RecRef.Open(Database::"Fixed Asset");
         ConfigTemplateManagement.UpdateRecord(pConfigTemplateHeader, RecRef);
         RecRef.SetTable(pFixedAsset);
-        pFixedAsset.Validate(Description, GLEntry.Description);
+        pFixedAsset.Validate(Description, pGLEntry.Description);
         pFixedAsset.Modify();
 
         DimMgt.GetDimensionSet(DimensionSetEntry, pGLEntry."Dimension Set ID");
@@ -124,8 +130,17 @@ report 87057 "wan Reclass to Fixed Asset"
         FADepreciationBook.Validate("FA No.", pFixedAsset."No.");
         FADepreciationBook.Validate("Depreciation Book Code", FASetup."Default Depr. Book");
         FADepreciationBook.Validate("FA Posting Group", pFixedAsset."FA Posting Group");
-        //FADepreciationBook.Validate("Acquisition Date", GLEntry."Posting Date");
-        //FADepreciationBook.Validate("G/L Acquisition Date", GLEntry."Posting Date");
+        FASubclass.Get(FixedAsset."FA Subclass Code");
+        FADepreciationBook.Validate("Depreciation Method", FASubclass."wan Def. Depreciation Method");
+        FADepreciationBook.Validate("Acquisition Date", pGLEntry."Posting Date");
+        FADepreciationBook.Validate("G/L Acquisition Date", pGLEntry."Posting Date");
+        FADepreciationBook.Validate("Depreciation Starting Date", pGLEntry."Posting Date");
+        if FASubclass."wan Def. No. of Deprec. Years" <> 0 then
+            FADepreciationBook.Validate("No. of Depreciation Years", FASubclass."wan Def. No. of Deprec. Years");
+        if FASubclass."wan Def. No. of Deprec. Months" <> 0 then
+            FADepreciationBook.Validate("No. of Depreciation Months", FASubclass."wan Def. No. of Deprec. Months");
+        if FASubclass."wan Def. Declining-Balance %" <> 0 then
+            FADepreciationBook.Validate("Declining-Balance %", FASubclass."wan Def. Declining-Balance %");
         FADepreciationBook.Insert(true);
     end;
 }
