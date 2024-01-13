@@ -2,7 +2,7 @@
   "id": "e9b2f112-0e86-42a7-b94e-4cda9fa57894",
   "name": "WanaMisc",
   "publisher": "Wanamics",
-  "version": "21.0.0.10",
+  "version": "22.0.0.01",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -18,7 +18,7 @@
   "idRanges": [
     {
       "from": 87050,
-      "to": 87059
+      "to": 87069
     }
   ],
   "resourceExposurePolicy": {
@@ -26,7 +26,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "10.0",
+  "runtime": "11.0",
   "features": [
     "NoImplicitWith",
     "TranslationFile", 

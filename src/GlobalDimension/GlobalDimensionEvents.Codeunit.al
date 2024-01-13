@@ -18,6 +18,7 @@ codeunit 87050 "wan Global Dimension Events"
         Setup: Record "wan Global Dimension Setup";
     begin
         if Rec."Income/Balance" = Rec."Income/Balance"::"Income Statement" then begin
+            GLSetup.GetRecordOnce();
             if not Setup.Get() then
                 exit;
             if Setup."Income Glob. Dim. 1 Mand." then
@@ -45,8 +46,7 @@ codeunit 87050 "wan Global Dimension Events"
             ChangeLogMgt.LogInsertion(RecRef);
         end else
             if (DefaultDim."Value Posting" = DefaultDim."Value Posting"::"Same Code") and (DefaultDim."Dimension Value Code" <> '') then begin
-            end
-            else
+            end else
                 if DefaultDim."Value Posting" <> DefaultDim."Value Posting"::"Code Mandatory" then begin
                     xRecRef.GetTable(DefaultDim);
                     DefaultDim.Validate("Value Posting", DefaultDim."Value Posting"::"Code Mandatory");
@@ -55,7 +55,6 @@ codeunit 87050 "wan Global Dimension Events"
                     DefaultDim.Modify();
                 end;
     end;
-
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Release Sales Document", 'OnAfterReleaseSalesDoc', '', False, False)]
     local procedure OnAfterReleaseSalesDoc(var SalesHeader: Record "Sales Header"; PreviewMode: Boolean; var LinesWereModified: Boolean)

@@ -81,6 +81,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan VAT Events - Method OnBeforeInsertVAT - NamedType MustBeCustomerOrVendorForUnrealizedVAT</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1044792080 - Method 846556168 - NamedType 1387521371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyzing Data</source>
+          <target>Analyse des données</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method AnalyzeData - NamedType ltAnalyzing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do-you want to create an Excel book for %1 %2(s)?</source>
+          <target>Voules-vous créer un classeur Excel pour %1 "%2"(s)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WanaWho</source>
+          <target>WahaWho</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType FileNameLbl</note>
+        </trans-unit>
         <trans-unit id="Page 2788995989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Self Usage Accounts</source>
           <target>Comptes livraison à soi-même</target>
@@ -287,7 +305,7 @@
         </trans-unit>
         <trans-unit id="Report 3404342574 - NamedType 4138912492" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 Trial Balance</source>
-          <target>Balance analytique %1</target>
+          <target>Balance analytique axe %1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanTitle</note>
         </trans-unit>
@@ -947,7 +965,7 @@
         </trans-unit>
         <trans-unit id="Report 3676187681 - Method 36190024 - NamedType 1417930510" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do-you want to create an Excel book for %1 %2(s)?</source>
-          <target>Voules-vous créer un classeru Excel pour %1 "%2"(s)</target>
+          <target>Voules-vous créer un classeur Excel pour %1 "%2"(s)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Method Export - NamedType ltConfirm</note>
         </trans-unit>
@@ -1011,24 +1029,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control StartingDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 320219805 - Control 2774844873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3681709245">
-          <source>Specifies the value of the Declining-Balance % field.</source>
-          <target>Spécifie la valeur du champ % dégressif.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan FA Subclasses - Control Declining-Balance % - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 320219805 - Control 162280418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3681709245">
-          <source>Specifies the value of the Depreciation Method field.</source>
-          <target>Spécifie la valeur du champ Méthode amortissement.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan FA Subclasses - Control Depreciation Method - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 320219805 - Control 3186494837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3681709245">
-          <source>Specifies the value of the No. of Depreciation Years field.</source>
-          <target>Spécifie la valeur du champ Nombre d'années amortissement.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan FA Subclasses - Control No. of Depreciation Years - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="PageExtension 2803858443 - Action 1054655392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
           <source>Reclass to Fixed Asset</source>
           <target>Reclasser en immobilisation</target>
@@ -1065,30 +1065,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Sales &amp; Receivables Setup - Control wan Self Usage Customer No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="TableExtension 203297647 - Field 3742336034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
-          <source>Def. Declining-Balance %</source>
-          <target>% dégressif par déf.</target>
+        <trans-unit id="PageExtension 1465072373 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2183420390">
+          <source>Export WanaWho</source>
+          <target>Export WanaWho</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. Declining-Balance % - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaWho Users - Action Export - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 203297647 - Field 2877258617 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
-          <source>Def. Depreciation Method</source>
-          <target>Méthode amort. 
-par déf.</target>
+        <trans-unit id="PageExtension 1465072373 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2183420390">
+          <source>Import WahaWho</source>
+          <target>Import WanaWho</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. Depreciation Method - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 203297647 - Field 2891701665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
-          <source>Def. No. of Depreciation Months</source>
-          <target>Nbre mois amort. par déf.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. No. of Deprec. Months - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 203297647 - Field 4018060124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3094664591">
-          <source>Def. No. of Depreciation Years</source>
-          <target>Nbre années amort. par déf.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan FA Subclass - Field wan Def. No. of Deprec. Years - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaWho Users - Action Import - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3680379754 - Field 595961814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Self Usage Customer No.</source>
