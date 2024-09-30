@@ -1,4 +1,4 @@
-pageextension 87060 "WanaMisc Customer Card" extends "Customer Card"
+pageextension 87062 "WanaMisc Contact Card" extends "Contact Card"
 {
     layout
     {

@@ -63,6 +63,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Paragraph Handling - NamedType Text000</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2174481058 - Method 3707976373 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The following G/L Accounts have mandatory dimension codes that have not been selected:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Close Income Stat. Events - Method CheckDimPostingRules - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2174481058 - Method 3707976373 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>\\In order to post to these accounts you must also select these dimensions:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Close Income Stat. Events - Method CheckDimPostingRules - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3479552115 - Method 1184802771 - NamedType 3871721722" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WARNING : Job queue "%1" error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan JobQueue Events Subscr. - Method OnAfterLogError - NamedType SubjectLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3673123032 - Method 832324968 - NamedType 353853290" size-unit="char" translate="yes" xml:space="preserve">
           <source>must be Customer or Vendor for unrealized VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -853,6 +868,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control StartingDate - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 4128088553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement Missing Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report wan VATStatement Missing Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3815257536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>wan VAT Statement Distinct Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query wan VAT Statement Distinct - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2803858443 - Action 1054655392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
           <source>Reclass to Fixed Asset</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -882,6 +907,16 @@
           <source>Specifies the value of the Self Usage Customer No. field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Sales &amp; Receivables Setup - Control wan Self Usage Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3723569085 - Action 1844265029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1770625610">
+          <source>Add Missing VAT Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaMisc VAT Statement - Action wanAddMissingVATLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3723569085 - Action 1844265029 - Method 1377591017 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3723569085">
+          <source>Do you want to add missing lines?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaMisc VAT Statement - Action wanAddMissingVATLines - Method OnAction - NamedType ConfirmLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1465072373 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2183420390">
           <source>Export WanaWho</source>

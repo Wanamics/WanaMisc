@@ -12,9 +12,9 @@ report 87058 "wan Employee - Trial Balance"
     {
         dataitem(Employee; Employee)
         {
-            DataItemTableView = SORTING("Employee Posting Group");
+            DataItemTableView = sorting("Employee Posting Group");
             RequestFilterFields = "No.", "Date Filter", "Employee Posting Group";
-            column(CompanyName; COMPANYPROPERTY.DisplayName())
+            column(CompanyName; CompanyProperty.DisplayName())
             {
             }
             column(PeriodPeriodFilter; StrSubstNo(Text003, PeriodFilter))
@@ -163,21 +163,19 @@ report 87058 "wan Employee - Trial Balance"
 
     trigger OnPreReport()
     begin
-        with Employee do begin
-            PeriodFilter := GetFilter("Date Filter");
-            PeriodStartDate := GetRangeMin("Date Filter");
-            PeriodEndDate := GetRangeMax("Date Filter");
-            SetRange("Date Filter");
-            EmplFilter := GetFilters();
-            SetRange("Date Filter", PeriodStartDate, PeriodEndDate);
-            AccountingPeriod.SetRange("Starting Date", 0D, PeriodEndDate);
-            AccountingPeriod.SetRange("New Fiscal Year", true);
-            if AccountingPeriod.FindLast() then
-                FiscalYearStartDate := AccountingPeriod."Starting Date"
-            else
-                Error(Text000, AccountingPeriod.FieldCaption("Starting Date"), AccountingPeriod.TableCaption());
-            FiscalYearFilter := Format(FiscalYearStartDate) + '..' + Format(PeriodEndDate);
-        end;
+        PeriodFilter := Employee.GetFilter("Date Filter");
+        PeriodStartDate := Employee.GetRangeMin("Date Filter");
+        PeriodEndDate := Employee.GetRangeMax("Date Filter");
+        Employee.SetRange("Date Filter");
+        EmplFilter := Employee.GetFilters();
+        Employee.SetRange("Date Filter", PeriodStartDate, PeriodEndDate);
+        AccountingPeriod.SetRange("Starting Date", 0D, PeriodEndDate);
+        AccountingPeriod.SetRange("New Fiscal Year", true);
+        if AccountingPeriod.FindLast() then
+            FiscalYearStartDate := AccountingPeriod."Starting Date"
+        else
+            Error(Text000, AccountingPeriod.FieldCaption("Starting Date"), AccountingPeriod.TableCaption());
+        FiscalYearFilter := Format(FiscalYearStartDate) + '..' + Format(PeriodEndDate);
     end;
 
     var

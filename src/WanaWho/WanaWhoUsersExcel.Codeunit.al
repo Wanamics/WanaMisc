@@ -7,7 +7,9 @@ codeunit 87069 "WanaWho Users Excel"
         SalespersonPurchaser: Record "Salesperson/Purchaser";
         Resource: Record "Resource";
         Employee: Record "Employee";
-        UserGroupMember: Record "User Group Member";
+        // UserGroupMember: Record "User Group Member";
+        // Table 'User Group Member' is marked for removal. Reason: [220_UserGroups] Replaced by the Security Group Member Buffer table and Security Group codeunit in the security groups system; by Access Control table in the permission sets system. To learn more, go to https://go.microsoft.com/fwlink/?linkid=2245709.. Tag: 22.0.
+        UserGroupMember: Record "Security Group Member Buffer";
         UserSetup: Record "User Setup";
         UserPersonalization: Record "User Personalization";
 
@@ -88,7 +90,8 @@ codeunit 87069 "WanaWho Users Excel"
         if Employee."No." <> '' then
             if not Employee.Insert(true) then
                 Employee.Modify(true);
-        if UserGroupMember."User Group Code" <> '' then
+        // if UserGroupMember."User Group Code" <> '' then
+        if UserGroupMember."Security Group Code" <> '' then
             if not UserGroupMember.Insert(true) then
                 UserGroupMember.Modify(true);
         UserSetup.Validate("User ID");
@@ -175,7 +178,8 @@ codeunit 87069 "WanaWho Users Excel"
         EnterCell(RowNo, ColumnNo, Title(Caption, pUser.FieldCaption(State)), true, false, '', ExcelBuffer."Cell Type"::Text); // 6
         EnterCell(RowNo, ColumnNo, Title(Caption, pUser.FieldCaption("Contact Email")), true, false, '', ExcelBuffer."Cell Type"::Text); // 7
         Caption := UserGroupMember.TableCaption;
-        EnterCell(RowNo, ColumnNo, Title(Caption, UserGroupMember.FieldCaption("User Group Code")), true, false, '', ExcelBuffer."Cell Type"::Text); // 8
+        // EnterCell(RowNo, ColumnNo, Title(Caption, UserGroupMember.FieldCaption("User Group Code")), true, false, '', ExcelBuffer."Cell Type"::Text); // 8
+        EnterCell(RowNo, ColumnNo, Title(Caption, UserGroupMember.FieldCaption("Security Group Code")), true, false, '', ExcelBuffer."Cell Type"::Text); // 8
         Caption := UserPersonalization.TableCaption;
         EnterCell(RowNo, ColumnNo, Title(Caption, UserPersonalization.FieldCaption("Profile ID")), true, false, '', ExcelBuffer."Cell Type"::Text); // 9
         Caption := UserSetup.TableCaption;
@@ -217,7 +221,8 @@ codeunit 87069 "WanaWho Users Excel"
         SalespersonPurchaser: Record "Salesperson/Purchaser";
         Resource: Record "Resource";
         Employee: Record "Employee";
-        UserGroupMember: Record "User Group Member";
+        // UserGroupMember: Record "User Group Member";
+        UserGroupMember: Record "Security Group Member Buffer";
         UserSetup: Record "User Setup";
         UserPersonalization: Record "User Personalization";
     begin
@@ -233,9 +238,10 @@ codeunit 87069 "WanaWho Users Excel"
 
         UserGroupMember.SetCurrentKey("User Name");
         UserGroupMember.SetRange("User Name", pUser."User Name");
-        UserGroupMember.SetRange("Company Name", CompanyName);
+        // UserGroupMember.SetRange("Company Name", CompanyName);
         if UserGroupMember.FindFirst() then;
-        EnterCell(RowNo, ColumnNo, UserGroupMember."User Group Code", false, false, '', ExcelBuffer."Cell Type"::Text); // 8
+        // EnterCell(RowNo, ColumnNo, UserGroupMember."User Group Code", false, false, '', ExcelBuffer."Cell Type"::Text); // 8
+        EnterCell(RowNo, ColumnNo, UserGroupMember."Security Group Code", false, false, '', ExcelBuffer."Cell Type"::Text); // 8
 
         UserPersonalization.SetCurrentKey("User SID");
         UserPersonalization.SetRange("User SID", pUser."User Security ID");
@@ -350,10 +356,12 @@ codeunit 87069 "WanaWho Users Excel"
             7:
                 pUser.Validate("Contact Email", pCell);
             8:
-                if not UserGroupMember.Get(UserGroupMember."User Group Code", pUser."User Security ID", CompanyName) then begin
-                    UserGroupMember.Validate("User Group Code", pCell);
+                // if not UserGroupMember.Get(UserGroupMember."User Group Code", pUser."User Security ID", CompanyName) then begin
+                if not UserGroupMember.Get(UserGroupMember."Security Group Code", pUser."User Security ID", CompanyName) then begin
+                    // UserGroupMember.Validate("User Group Code", pCell);
+                    UserGroupMember.Validate("Security Group Code", pCell);
                     UserGroupMember."User Security ID" := pUser."User Security ID";
-                    UserGroupMember.Validate("Company Name", CompanyName);
+                    // UserGroupMember.Validate("Company Name", CompanyName);
                 end;
             9:
                 begin
