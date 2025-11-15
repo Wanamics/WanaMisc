@@ -1,3 +1,8 @@
+namespace Wanamics.WanaDim.GlobalDimensions;
+
+using Microsoft.Finance.GeneralLedger.Account;
+using Microsoft.Finance.Dimension;
+using Microsoft.Finance.GeneralLedger.Setup;
 table 87050 "wan Global Dimension Setup"
 {
     Caption = 'Global Dimension Setup';
@@ -5,8 +10,8 @@ table 87050 "wan Global Dimension Setup"
 
     fields
     {
-        field(87240; "Primary Key"; Code[10]) { }
-        field(87241; "Income Glob. Dim. 1 Mand."; Boolean)
+        field(87050; "Primary Key"; Code[10]) { }
+        field(87051; "Income Glob. Dim. 1 Mand."; Boolean)
         {
             Caption = 'Income Glob. Dim. 1 Mandatory';
             DataClassification = ToBeClassified;
@@ -15,7 +20,7 @@ table 87050 "wan Global Dimension Setup"
                 SetIncomeGLAccGlobDim(1, Rec."Income Glob. Dim. 1 Mand.");
             end;
         }
-        field(87242; "Income Glob. Dim. 2 Mand."; Boolean)
+        field(87052; "Income Glob. Dim. 2 Mand."; Boolean)
         {
             Caption = 'Income Glob. Dim. 2 Mandatory';
             DataClassification = ToBeClassified;

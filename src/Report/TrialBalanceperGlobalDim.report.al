@@ -1,12 +1,15 @@
+namespace Wanamics.WanaDim.Report;
+
+using Microsoft.Finance.Dimension;
+using Microsoft.Finance.GeneralLedger.Account;
+using System.Utilities;
+using Microsoft.Foundation.Company;
+using Microsoft.Finance.GeneralLedger.Setup;
+using Microsoft.Finance.Currency;
 report 87050 "Trial Balance, per Global Dim."
 // from NA Localization report 10023
 {
-    // This report is copied from 10011 GL - Fin Stm. Even though it does not and
-    // cannot use the Percent To Total feature, nevertheless for maintainability and
-    // ease of conversion, the 4 Percent To Total columns are still within the array,
-    // even though the user can NEVER select them. These are columns 2, 4, 6 & 8.
-    DefaultLayout = RDLC;
-    RDLCLayout = './Layout/TrialBalanceperGlobalDim.rdl';
+    DefaultRenderingLayout = "./Layout/TrialBalanceperGlobalDim.rdl";
 
     ApplicationArea = Suite;
     Caption = 'Trial Balance, per Global Dimension';
@@ -17,7 +20,7 @@ report 87050 "Trial Balance, per Global Dim."
     {
         dataitem("Dimension Value"; "Dimension Value")
         {
-            DataItemTableView = SORTING("Dimension Code", Code);
+            DataItemTableView = sorting("Dimension Code", Code);
             PrintOnlyIfDetail = true;
             column(DimCode_DimValue; "Dimension Code")
             {
@@ -506,6 +509,15 @@ report 87050 "Trial Balance, per Global Dim."
                         Error(Text015);
             Dimension.FilterGroup(0);
         end;
+    }
+
+    rendering
+    {
+        layout("./Layout/TrialBalanceperGlobalDim.rdl")
+        {
+            Type = RDLC;
+            LayoutFile = './Layout/TrialBalanceperGlobalDim.rdl';
+        }
     }
 
     labels

@@ -1,8 +1,11 @@
-pageextension 87054 "wan Resource Card" extends "Resource Card"
+namespace Wanamics.WanaDim.GlobalDimensions;
+
+using Microsoft.Finance.GeneralLedger.Account;
+pageextension 87052 "G/L Account Card" extends "G/L Account Card"
 {
     layout
     {
-        addlast(Invoicing)
+        addlast(Posting)
         {
             field(wanGlobalDimension1Code; Rec."Global Dimension 1 Code")
             {

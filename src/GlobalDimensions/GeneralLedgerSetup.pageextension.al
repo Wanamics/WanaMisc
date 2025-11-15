@@ -1,4 +1,7 @@
-pageextension 87050 "wan General Ledger Setup" extends "General Ledger Setup"
+namespace Wanamics.WanaDim.GlobalDimensions;
+
+using Microsoft.Finance.GeneralLedger.Setup;
+pageextension 87050 "General Ledger Setup" extends "General Ledger Setup"
 {
     layout
     {

@@ -1,8 +1,11 @@
-pageextension 87053 "wan Item Card" extends "Item Card"
+namespace Wanamics.WanaDim.GlobalDimensions;
+
+using Microsoft.FixedAssets.FixedAsset;
+pageextension 87051 "Fixed Asset Card" extends "Fixed Asset Card"
 {
     layout
     {
-        addlast("Costs & Posting")
+        addafter("FA Subclass Code")
         {
             field(wanGlobalDimension1Code; Rec."Global Dimension 1 Code")
             {

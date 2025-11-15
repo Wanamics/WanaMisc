@@ -1,3 +1,4 @@
+namespace Wanamics.WanaDim.Report;
 codeunit 87051 "Paragraph Handling"
 // from NA localization codeunit 10025
 {

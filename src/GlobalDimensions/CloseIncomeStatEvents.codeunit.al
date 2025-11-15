@@ -1,9 +1,9 @@
-// namespace Wanamics.WanaMisc.Dimensions;
-// using Microsoft.Finance.GeneralLedger.Setup;
-// using Microsoft.Finance.Dimension;
-// using Microsoft.Finance.GeneralLedger.Account;
-// using Microsoft.Finance.GeneralLedger.Journal;
-codeunit 87053 "wan Close Income Stat. Events"
+namespace Wanamics.WanaDim.GlobalDimensions;
+using Microsoft.Finance.GeneralLedger.Setup;
+using Microsoft.Finance.Dimension;
+using Microsoft.Finance.GeneralLedger.Account;
+using Microsoft.Finance.GeneralLedger.Journal;
+codeunit 87053 "Close Income Stat. Events"
 {
     [EventSubscriber(ObjectType::Report, Report::"Close Income Statement", OnBeforeCheckDimPostingRules, '', false, false)]
     local procedure OnBeforeCheckDimPostingRules(var SelectedDimension: Record "Selected Dimension"; var ErrorText: Text[1024]; var Handled: Boolean; GenJnlLine: Record "Gen. Journal Line")

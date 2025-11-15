@@ -1,8 +1,16 @@
+namespace Wanamics.WanaDim.Report;
+
+using Microsoft.Finance.GeneralLedger.Account;
+using System.Utilities;
+using Microsoft.Finance.Dimension;
+using Microsoft.Foundation.Company;
+using Microsoft.Finance.GeneralLedger.Setup;
+using Microsoft.Finance.Currency;
+using System.IO;
 report 87051 "Trial Balance, Spread G. Dim."
 // from NA Localization report 10025
 {
-    DefaultLayout = RDLC;
-    RDLCLayout = './Layout/TrialBalanceSpreadGDim.rdl';
+    DefaultRenderingLayout = "./Layout/TrialBalanceSpreadGDim.rdl";
     ApplicationArea = Suite;
     Caption = 'Trial Balance, Spread Global Dimension';
     UsageCategory = ReportsAndAnalysis;
@@ -11,7 +19,7 @@ report 87051 "Trial Balance, Spread G. Dim."
     {
         dataitem("G/L Account"; "G/L Account")
         {
-            DataItemTableView = SORTING("No.");
+            DataItemTableView = sorting("No.");
             PrintOnlyIfDetail = true;
             RequestFilterFields = "No.", "Account Type", "Date Filter", "Global Dimension 1 Filter", "Global Dimension 2 Filter", "Budget Filter";
             column(Dimension_Name_________Text011; /*Dimension.Name + ' ' + Text011*/ StrSubstNo(wanTitle, Dimension.Name))
@@ -612,6 +620,15 @@ report 87051 "Trial Balance, Spread G. Dim."
                         Error(Text012);
             Dimension.FilterGroup(0);
         end;
+    }
+
+    rendering
+    {
+        layout("./Layout/TrialBalanceSpreadGDim.rdl")
+        {
+            Type = RDLC;
+            LayoutFile = './Layout/TrialBalanceSpreadGDim.rdl';
+        }
     }
 
     labels

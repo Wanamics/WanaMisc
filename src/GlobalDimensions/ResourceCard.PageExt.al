@@ -1,8 +1,11 @@
-pageextension 87051 "wan Fixed Asset Card" extends "Fixed Asset Card"
+namespace Wanamics.WanaDim.GlobalDimensions;
+
+using Microsoft.Projects.Resources.Resource;
+pageextension 87054 "Resource Card" extends "Resource Card"
 {
     layout
     {
-        addafter("FA Subclass Code")
+        addlast(Invoicing)
         {
             field(wanGlobalDimension1Code; Rec."Global Dimension 1 Code")
             {

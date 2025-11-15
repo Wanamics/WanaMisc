@@ -1,8 +1,11 @@
-pageextension 87052 "wan G/L Account Card" extends "G/L Account Card"
+namespace Wanamics.WanaDim.GlobalDimensions;
+
+using Microsoft.Inventory.Item;
+pageextension 87053 "Item Card" extends "Item Card"
 {
     layout
     {
-        addlast(Posting)
+        addlast("Costs & Posting")
         {
             field(wanGlobalDimension1Code; Rec."Global Dimension 1 Code")
             {
