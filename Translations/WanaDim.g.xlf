@@ -1,486 +1,400 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="WanaMisc.g.xlf">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="WanaDim">
     <body>
       <group id="body">
         <trans-unit id="Codeunit 2006529970 - Method 3868339101 - NamedType 4117545204" size-unit="char" translate="yes" xml:space="preserve">
           <source>The credit memo cannot be posted because the total is different from the total on the related incoming document.</source>
-          <target>L'avoir ne peut être validé car son total est différent de celui du document entrant?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Incoming Document Events - Method OnBeforePostPurchaseDoc - NamedType TotalsMismatchErr</note>
         </trans-unit>
         <trans-unit id="PageExtension 1870447923 - Action 1695057039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
           <source>Create Purch. Inv./Cr.Memo</source>
-          <target>Créer facture/avoir achats</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Action _CreatePurchInvCrMemo - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1870447923 - Action 3419587933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
           <source>Create</source>
-          <target>Créer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Action _Create - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1870447923 - Control 4235931051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
           <source>Description</source>
-          <target>Description</target>
-          <target>[NAB: SUGGESTION]Désignation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Control _Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1870447923 - Control 1228173161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
           <source>Payment Method Code</source>
-          <target>Code mode de règlement</target>
-          <target>[NAB: SUGGESTION]Code mode de paiement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Control _PaymentMethodCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1870447923 - Field 1144126644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 956135699">
           <source>Payment Method Code</source>
-          <target>Code mode de règlement</target>
-          <target>[NAB: SUGGESTION]Code mode de paiement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Incoming Document - Field wan Payment Method Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 2588032914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Name</source>
-          <target>Nom du compte</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Account Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account No.</source>
-          <target>N° compte</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Account No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 823559016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field Caption</source>
-          <target>Légende champ</target>
-          <target>[NAB: SUGGESTION]Légende du champ</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Field Caption - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field No.</source>
-          <target>N° champ</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Field No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 2155792970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Group 1</source>
-          <target>Groupe compta.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Posting Group 1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 242703119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Group 2</source>
-          <target>Groupe compta. 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Posting Group 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 1393533604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table Caption</source>
-          <target>Légende table</target>
-          <target>[NAB: SUGGESTION]Légende de la table</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Table Caption - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 276150298 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table No.</source>
-          <target>N° table</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Table No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 276150298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Direct Posting</source>
-          <target>Contrôler validation directe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 276150298 - ReportDataItem 534251996 - Method 72583909 - NamedType 2782572908" size-unit="char" translate="yes" xml:space="preserve">
           <source>Direct Posting is correct for posting groups G/L accounts setup</source>
-          <target>"Validation directe" est correcte pour les groupes comptabilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - ReportDataItem Buffer - Method OnPreDataItem - NamedType NoProblemLbl</note>
         </trans-unit>
         <trans-unit id="Report 276150298 - Control 1793455708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update Direct Posting</source>
-          <target>Modifier "Validation directe"</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - Control Reset Direct Posting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 276150298 - ReportLayout 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Direct Posting</source>
-          <target>Contrôler validation directe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - ReportLayout Default - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1972196590 - Action 581214949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
           <source>Check Direct Posting</source>
-          <target>Contrôler validation directe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaMisc Chart of Accounts - Action wanCheckDirectPosting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee - Trial Balance</source>
-          <target>Balance salariés</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 974067974" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amounts in LCY</source>
-          <target>Montants en DS</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType AmountsinLCYCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>
-          <target>Page</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType CurrReportPageNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 3018357940" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee - Trial Balance</source>
-          <target>Balance salariés</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType EmplTrialBalanceCapLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 730166869" size-unit="char" translate="yes" xml:space="preserve">
           <source>Only includes Employees with entries in the period</source>
-          <target>Compte salariés movementés dans la période uniquement</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType EmplWithEntryPeriodCaptLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 3555156106" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fiscal Year-To-Date</source>
-          <target>Exercice à date</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType FiscalYearToDateCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 820790968" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
-          <target>Nom</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType Name_EmployeeCaption</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 2171017903" size-unit="char" translate="yes" xml:space="preserve">
           <source>Net Change</source>
-          <target>Solde période</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType NetChangeCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 1165671327" size-unit="char" translate="yes" xml:space="preserve">
           <source>Beginning Balance</source>
-          <target>Solde d’ouverture</target>
-          <target>[NAB: SUGGESTION]Solde d'ouverture</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType PeriodBeginBalCapLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 2716332507" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period</source>
-          <target>Période</target>
-          <target>[NAB: SUGGESTION]Période.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType PeriodCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 4025579528" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit</source>
-          <target>Crédit</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType PeriodCreditAmtCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 2041592753" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debit</source>
-          <target>Débit</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType PeriodDebitAmtCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
           <source>It was not possible to find a %1 in %2.</source>
-          <target>Il est impossible de trouver un(e) %1 dans %2.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType Text000</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period: %1</source>
-          <target>Période : %1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType Text003</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total for</source>
-          <target>Total pour</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType Text004</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
           <source>Group Totals: %1</source>
-          <target>Sous-totaux : %1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType Text005</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 1537753689" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total in LCY</source>
-          <target>Total en DS</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType TotalinLCYCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - NamedType 3058314049" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending Balance</source>
-          <target>Solde de clôture</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Employee - Trial Balance - NamedType YTDTotalCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 4009280456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reclass to Fixed Asset</source>
-          <target>Reclasser en immobilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4009280456 - ReportDataItem 2825951060 - Method 72583909 - NamedType 2769682546" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must select fixed asset OR Template Code.</source>
-          <target>Vous devez sélectionner une immobilisation OU un modèle.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - ReportDataItem G/L Entry - Method OnPreDataItem - NamedType SelectFixedAssetOrTemplateErr</note>
         </trans-unit>
         <trans-unit id="Report 4009280456 - ReportDataItem 2825951060 - Method 72583909 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to reclassify %1 "%2" to %3 %4?</source>
-          <target>Voulez-vous reclassifier %1 "%2" sur %3 %4 ?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - ReportDataItem G/L Entry - Method OnPreDataItem - NamedType ConfirmLbl</note>
         </trans-unit>
         <trans-unit id="Report 4009280456 - Control 1991001892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fixed Asset No.</source>
-          <target>N° immobilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control FA No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4009280456 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
-          <target>Date comptabilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control PostingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4009280456 - Control 3379441404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fixed Asset Template</source>
-          <target>Code modèle</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control Template - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2803858443 - Action 1054655392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
           <source>Reclass to Fixed Asset</source>
-          <target>Reclasser en immobilisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Entries - Action wanReclassToFixedAsset - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set Next No. Series Line</source>
-          <target>Définir N° souche suivant</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - ReportDataItem 913177062 - Method 3715240 - NamedType 4288424883" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 "%2" processed</source>
-          <target>%1 "%2" traités</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - ReportDataItem No. Series Line - Method OnPostDataItem - NamedType DoneMsg</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - ReportDataItem 913177062 - Method 72583909 - NamedType 2989294795" size-unit="char" translate="yes" xml:space="preserve">
           <source>ReplaceBy is required</source>
-          <target>Remplacer par est obligatoire</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - ReportDataItem No. Series Line - Method OnPreDataItem - NamedType ReplaceByIsRequiredErr</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - ReportDataItem 913177062 - Method 72583909 - NamedType 2294662597" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to set next line for %1 "%2"?</source>
-          <target>Voulez-vous définir N° souche suivant pour %1 "%2" ?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - ReportDataItem No. Series Line - Method OnPreDataItem - NamedType ConfirmMsg</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Control 207805549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Next Starting Date</source>
-          <target>Nouvelle date début</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control NextStartingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Control 207805549 - Method 2126772001 - NamedType 1351735234" size-unit="char" translate="yes" xml:space="preserve">
           <source>Must be greater then starting Date</source>
-          <target>Doit être supérieure à date début</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control NextStartingDate - Method OnValidate - NamedType MustBeGTStaringDateErr</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Control 3971477682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Replace %1 by</source>
-          <target>Remplacer %1 par</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control Replace1By - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Control 2123698663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Replace %2 by</source>
-          <target>Remplacer %2 par</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control Replace2By - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Control 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Date</source>
-          <target>Date début</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control StartingDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3346869136 - Action 2134149939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1351594800">
           <source>Set Next No. Series Line</source>
-          <target>Définir N° souche suivant</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan No. Series - Action wanSetNextNoSeriesLine - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2397255364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>
-          <target>Autorisations</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2397255364 - Action 4152454492 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
           <source>View permission set details</source>
-          <target>Afficher les détails des ensembles d’autorisations</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property AboutTitle</note>
         </trans-unit>
         <trans-unit id="Page 2397255364 - Action 4152454492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View or edit which feature objects users need to access, and set up the related permissions in permission sets that you can assign to the users.</source>
-          <target>Affichez ou modifiez les objets caractéristiques auxquels les utilisateurs doivent accéder et paramétrer les autorisations associées dans les ensembles d’autorisations que vous pouvez affecter aux utilisateurs.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2397255364 - Action 4152454492 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
           <source>Go here to see which permissions the selected permission set defines for which objects.</source>
-          <target>Cliquez ici pour déterminer les autorisations définies par l’ensemble d’autorisations pour quel type d’objets.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 2397255364 - Action 4152454492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permissions</source>
-          <target>Autorisations</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 579887853 - Action 1257849630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2172518989">
           <source>PermissionSets</source>
-          <target>Ensembles d'autorisation</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan All Objects with Caption - Action PermissionSets - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1003046996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Self Usage Account</source>
-          <target>Compte livraison à soi-même</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1003046996 - Field 1602339052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FA Subclass Code</source>
-          <target>Code sous-classe immo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field FA Subclass Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1003046996 - Field 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Posting Group</source>
-          <target>Groupe compta. marché</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Gen. Bus. Posting Group - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1003046996 - Field 1634984648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoice Disc. Account No.</source>
-          <target>Compte remise facture</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Invoice Disc. Account No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1003046996 - Field 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Category Code</source>
-          <target>Code catégorie article</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Item Category Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2788995989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Self Usage Accounts</source>
-          <target>Comptes livraison à soi-même</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2788995989 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
-          <target>Spécifie la valeur du groupe compta marché.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Gen. Bus. Posting Group - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2788995989 - Control 1634984648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Invoice Disc. Account No. field.</source>
-          <target>Spécifie la valeur du N° compte remise facture.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Invoice Disc. Account No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2788995989 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Dimension Value field.</source>
-          <target>Spécifie la valeur de la section analytique.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Item Category Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3307690539 - Action 1529028993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 320642379">
           <source>Inv. Disc. Acc. per Item Category</source>
-          <target>Compte rem. fact. par catégorie article</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Posting Setup - Action wanSelfUsageInvDiscAccounts - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3680379754 - Control 595961814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>Specifies the value of the Self Usage Customer No. field.</source>
-          <target>Spécifie la valeur du N° client livraison à soi-même.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Sales &amp; Receivables Setup - Control wan Self Usage Customer No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3680379754 - Field 595961814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Self Usage Customer No.</source>
-          <target>N° client livraison à soi-même</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales &amp; Receivables Setup - Field wan Self Usage Customer No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1049720984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>WanaMisc Self-usage</source>
-          <target>WanaMisc Livraison à soi-même</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaMisc_Self_Usage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 1044792080 - Method 846556168 - NamedType 1387521371" size-unit="char" translate="yes" xml:space="preserve">
           <source>Analyzing Data</source>
-          <target>Analyse des données</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method AnalyzeData - NamedType ltAnalyzing</note>
         </trans-unit>
         <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do-you want to create an Excel book for %1 %2(s)?</source>
-          <target>Voules-vous créer un classeur Excel pour %1 "%2"(s)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType ConfirmLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
           <source>WanaWho</source>
-          <target>WahaWho</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType FileNameLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1465072373 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2183420390">
           <source>Export WanaWho</source>
-          <target>Export WanaWho</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaWho Users - Action Export - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1465072373 - Action 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2183420390">
           <source>Import WahaWho</source>
-          <target>Import WanaWho</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaWho Users - Action Import - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 3479552115 - Method 1184802771 - NamedType 3871721722" size-unit="char" translate="yes" xml:space="preserve">
           <source>WARNING : Job queue "%1" error</source>
-          <target>ATTENTION : File d'attente des tâches, erreur "%1"</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan JobQueue Events Subscr. - Method OnAfterLogError - NamedType SubjectLbl</note>
         </trans-unit>
