@@ -3,690 +3,100 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="WanaMisc">
     <body>
       <group id="body">
-        <trans-unit id="Table 4242647264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Global Dimension Setup</source>
+        <trans-unit id="Codeunit 2006529970 - Method 3868339101 - NamedType 4117545204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The credit memo cannot be posted because the total is different from the total on the related incoming document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Incoming Document Events - Method OnBeforePostPurchaseDoc - NamedType TotalsMismatchErr</note>
         </trans-unit>
-        <trans-unit id="Table 4242647264 - Method 1164095015 - NamedType 4185596797" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to define %1 dim. as mandatory for each 'Income' G/L account?</source>
+        <trans-unit id="PageExtension 1870447923 - Action 1695057039 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
+          <source>Create Purch. Inv./Cr.Memo</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Method SetIncomeGLAccGlobDim - NamedType ConfirmEnable</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Action _CreatePurchInvCrMemo - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4242647264 - Method 1164095015 - NamedType 3089505866" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do-you want to disable value posting of dimension %1 for Income G/L Accounts?</source>
+        <trans-unit id="PageExtension 1870447923 - Action 3419587933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
+          <source>Create</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Method SetIncomeGLAccGlobDim - NamedType ConfirmDisable</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Action _Create - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4242647264 - Field 3877364928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Income Glob. Dim. 1 Mandatory</source>
+        <trans-unit id="PageExtension 1870447923 - Control 4235931051 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
+          <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Income Glob. Dim. 1 Mand. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Control _Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4242647264 - Field 2217404009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Income Glob. Dim. 2 Mandatory</source>
+        <trans-unit id="PageExtension 1870447923 - Control 1228173161 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 956135699">
+          <source>Payment Method Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Income Glob. Dim. 2 Mand. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Incoming Document - Control _PaymentMethodCode - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4242647264 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Primary Key</source>
+        <trans-unit id="TableExtension 1870447923 - Field 1144126644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 956135699">
+          <source>Payment Method Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Global Dimension Setup - Field Primary Key - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Incoming Document - Field wan Payment Method Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1003046996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Self Usage Account</source>
+        <trans-unit id="Table 276150298 - Field 2588032914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Account Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1003046996 - Field 1602339052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>FA Subclass Code</source>
+        <trans-unit id="Table 276150298 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field FA Subclass Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Account No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1003046996 - Field 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gen. Bus. Posting Group</source>
+        <trans-unit id="Table 276150298 - Field 823559016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Caption</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Gen. Bus. Posting Group - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Field Caption - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1003046996 - Field 1634984648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice Disc. Account No.</source>
+        <trans-unit id="Table 276150298 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Invoice Disc. Account No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Field No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1003046996 - Field 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Category Code</source>
+        <trans-unit id="Table 276150298 - Field 2155792970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Group 1</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Item Category Code - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Posting Group 1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1815343931 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The StringPrintLength function in CodeUnit 10025 only works for font sizes from 7 through 10.</source>
+        <trans-unit id="Table 276150298 - Field 242703119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Group 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Paragraph Handling - NamedType Text000</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Posting Group 2 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2174481058 - Method 3707976373 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The following G/L Accounts have mandatory dimension codes that have not been selected:</source>
+        <trans-unit id="Table 276150298 - Field 1393533604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Caption</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Close Income Stat. Events - Method CheckDimPostingRules - NamedType Text020</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Table Caption - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2174481058 - Method 3707976373 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
-          <source>\\In order to post to these accounts you must also select these dimensions:</source>
+        <trans-unit id="Table 276150298 - Field 3017471043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan Close Income Stat. Events - Method CheckDimPostingRules - NamedType Text021</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WanaMisc Check Direct Posting - Field Table No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3479552115 - Method 1184802771 - NamedType 3871721722" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WARNING : Job queue "%1" error</source>
+        <trans-unit id="Report 276150298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Direct Posting</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan JobQueue Events Subscr. - Method OnAfterLogError - NamedType SubjectLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3673123032 - Method 832324968 - NamedType 353853290" size-unit="char" translate="yes" xml:space="preserve">
-          <source>must be Customer or Vendor for unrealized VAT</source>
+        <trans-unit id="Report 276150298 - ReportDataItem 534251996 - Method 72583909 - NamedType 2782572908" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direct Posting is correct for posting groups G/L accounts setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan VAT Events - Method OnBeforeInsertVAT - NamedType MustBeCustomerOrVendorForUnrealizedVAT</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - ReportDataItem Buffer - Method OnPreDataItem - NamedType NoProblemLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1044792080 - Method 846556168 - NamedType 1387521371" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Analyzing Data</source>
+        <trans-unit id="Report 276150298 - Control 1793455708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Direct Posting</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method AnalyzeData - NamedType ltAnalyzing</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - Control Reset Direct Posting - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do-you want to create an Excel book for %1 %2(s)?</source>
+        <trans-unit id="Report 276150298 - ReportLayout 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Direct Posting</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType ConfirmLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report WanaMisc Check Direct Posting - ReportLayout Default - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WanaWho</source>
+        <trans-unit id="PageExtension 1972196590 - Action 581214949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>Check Direct Posting</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType FileNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Page 2788995989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Self Usage Accounts</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2788995989 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Gen. Bus. Posting Group - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2788995989 - Control 1634984648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Invoice Disc. Account No. field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Invoice Disc. Account No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2788995989 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Dimension Value field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Item Category Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Trial Balance, per Global Dimension</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2763383773" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType NameCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 650077689" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType PageCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must select at least one Report Column.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text000</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If you want more than 6 Report Columns you must round to Dollars or Thousands.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text001</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You may select a maximum of 8 Report Columns.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text002</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Program Bug.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text003</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amounts are in %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text004</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Budgeted, </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text005</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Last Year, </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text006</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Change Variance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text007</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Change % Variance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text008</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balance Variance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text009</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balance % Variance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text010</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Net Change</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text011</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text012</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
-          <source> (Thousands)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text013</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Trial Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text014</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are no Global Dimensions set up in General Ledger Setup. This report can only be used with Global Dimensions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text015</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must select a Global Dimension that has been set up in General Ledger Setup.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType Text016</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3161582441" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Actual vs Budget a</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanActualVsBudgetA</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3275655317" size-unit="char" translate="yes" xml:space="preserve">
-          <source>and</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanAnd</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 185574662" size-unit="char" translate="yes" xml:space="preserve">
-          <source>and Budget Changes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanAndBudgetedChanges</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 26925895" size-unit="char" translate="yes" xml:space="preserve">
-          <source>and from</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanAndFrom</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 2264352925" size-unit="char" translate="yes" xml:space="preserve">
-          <source>as of</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanAsOf</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3917650954" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Budget as of</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanBudgetAsOf</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3345670440" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Budgeted</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanBudgeted</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 3520633759" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Changes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanChanges</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 1413114621" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Changes from</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanChangesFrom</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 965746770" size-unit="char" translate="yes" xml:space="preserve">
-          <source>from</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanFrom</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 4138912492" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 Trial Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanTitle</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - NamedType 631435757" size-unit="char" translate="yes" xml:space="preserve">
-          <source>to</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - NamedType wanTo</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 4129364727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that the report includes global dimensions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control DimCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 4129364727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Select Global Dimension</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control DimCode - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 898452675 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want the results in the report to be rounded to the nearest penny (hundredth of a unit), dollar (unit), or thousand dollars (units). The results are in US dollars, unless you use an additional reporting currency.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control RoundTo - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 898452675 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Round to</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control RoundTo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 898452675 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Pennies,Dollars,Thousands</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control RoundTo - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 928405941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Select Report Columns</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control Select Report Columns - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 3463807212 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that a column is added that shows the actual balance.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ActualBalance - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 3463807212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Actual Balances</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ActualBalance - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 181328868 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that a column is added that shows the actual net balance.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ActualChange - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 181328868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Actual Changes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ActualChange - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 3633537329 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to include a column that shows the balance variance. The variance is calculated by subtracting the budget or prior year amounts over the period defined from the actual amounts.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ColumnFlags[11] - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 3633537329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Variance in Balances</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ColumnFlags[11] - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 1418366080 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that a column is inserted that shows the percentage of variance in balances. The variance is calculated by dividing the variance by the actual amounts.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ColumnFlags[12] - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 1418366080 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>% Variance in Balances</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ColumnFlags[12] - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 1034711064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to include the balance from the selected period.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ComparisonBalances - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 1034711064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Comparison Balances</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ComparisonBalances - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 4107785745 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to include the balance from the selected period.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ComparisonChange - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 4107785745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Comparison Changes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ComparisonChange - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 790615017 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that a column is inserted that shows the percentage of variance in balances. The variance is calculated by dividing the variance by the actual amounts.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control PercentVarianceinChange - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 790615017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>% Variance in Changes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control PercentVarianceinChange - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 1927394496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to include a column that shows the change variance. The variance is calculated by subtracting the budget or prior year amounts over the period defined from the actual amounts.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control VarianceinChange - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 1927394496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Variance in Changes</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control VarianceinChange - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2348175126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if figures either from the prior year or for the defined budget are included.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ShowComparison - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2348175126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show Comparison</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ShowComparison - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2348175126 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Last Year,Budget</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control ShowComparison - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2191381252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want the report to be generated with all of the accounts, including those with zero amounts. Otherwise, those accounts will be excluded.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control SkipZeros - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2191381252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Skip Accounts with all zero Amounts</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control SkipZeros - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2454743061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want all amounts to be printed by using the additional reporting currency. If you do not select the check box, then all amounts will be printed in US dollars.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control UseAdditionalReportingCurrency - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 3404342574 - Control 2454743061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Use Additional Reporting Currency</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, per Global Dim. - Control UseAdditionalReportingCurrency - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Trial Balance, Spread Global Dimension</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType CurrReport_PAGENOCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 973942433" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType DescriptionLine2_Control100CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 4155400760" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType DescriptionLine2_Control100Caption_Control30Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3376945121" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType DescriptionLine2_Control10CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1853304805" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType DescriptionLine2_Control10Caption_Control40Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3154589342" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType DescriptionLine2_Control51CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 2863800927" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType DescriptionLine2_Control51Caption_Control34Lbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must select at least one %1.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text000</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If you want more than 5 values for %1, you must round to Dollars or Thousands.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text001</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must select no more than 7 values for %1. Try another %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text002</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Program Bug.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text003</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amounts are in %1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text008</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
-          <source> (Thousands)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text009</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Too many values for %1 were selected. Try another %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text010</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Trial Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text011</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are no Global Dimensions set up in General Ledger Setup. This report can only be used with Global Dimensions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text012</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must select a Global Dimension that has been set up in General Ledger Setup.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text013</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You must select no more than 7 values for %1. Try another %2 or select "Print to Excel".</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text014</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3031896719" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text101</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 650019274" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Trial Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text102</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 12322657" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Company Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text103</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1925412508" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text104</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1287715891" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text105</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3200805742" size-unit="char" translate="yes" xml:space="preserve">
-          <source>User ID</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text106</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 2563109125" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date / Time</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text107</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 181231680" size-unit="char" translate="yes" xml:space="preserve">
-          <source>G/L Account Filters</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text108</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3838502359" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sub-Title</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text109</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3393061063" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amounts are in</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text110</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 4030757680" size-unit="char" translate="yes" xml:space="preserve">
-          <source>our Functional Currency</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType Text111</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 2264352925" size-unit="char" translate="yes" xml:space="preserve">
-          <source>As of</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanAsOf</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 3917650954" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Budget as of</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanBudgetAsOf</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 466361737" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Budgeted Changes From</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanBudgetedChangesFrom</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 1413114621" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Changes from</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanChangesFrom</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 4138912492" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 Trial Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanTitle</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 631435757" size-unit="char" translate="yes" xml:space="preserve">
-          <source>to</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanTo</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - NamedType 4007366" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - NamedType wanTotal</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control Options - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 4129364727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that the report includes global dimensions.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control DimCode - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 4129364727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Select Global Dimension</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control DimCode - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 612632567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want to export the data to an Excel spreadsheet for additional analysis or formatting before printing.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control PrintToExcel - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 612632567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Print to Excel</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control PrintToExcel - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 898452675 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want the results in the report to be rounded to the nearest penny (hundredth of a unit), dollar (unit), or thousand dollars (units). The results are in US dollars, unless you use an additional reporting currency.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control RoundTo - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 898452675 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Round to</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control RoundTo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 898452675 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Pennies,Dollars,Thousands</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control RoundTo - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 1753083214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies that the report includes amounts.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control SelectReportAmount - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 1753083214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Select Report Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control SelectReportAmount - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 1753083214 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Actual Change,Budget Change,Last Year Change,Actual Balance,Budget Balance,Last Year Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control SelectReportAmount - Property OptionCaption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 2191381252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want the report to be generated with all of the accounts, including those with zero amounts. Otherwise, those accounts will be excluded.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control SkipZeros - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 2191381252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Skip Accounts with all zero Amounts</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control SkipZeros - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 2454743061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if you want all amounts to be printed by using the additional reporting currency. If you do not select the check box, then all amounts will be printed in US dollars.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control UseAdditionalReportingCurrency - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 2022661786 - Control 2454743061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Use Additional Reporting Currency</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Trial Balance, Spread G. Dim. - Control UseAdditionalReportingCurrency - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaMisc Chart of Accounts - Action wanCheckDirectPosting - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3117428797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employee - Trial Balance</source>
@@ -808,20 +218,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Reclass to Fixed Asset - Control Template - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3676187681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Remaining VAT</source>
+        <trans-unit id="PageExtension 2803858443 - Action 1054655392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Reclass to Fixed Asset</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 3676187681 - Method 36190024 - NamedType 1417930510" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do-you want to create an Excel book for %1 %2(s)?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Method Export - NamedType ltConfirm</note>
-        </trans-unit>
-        <trans-unit id="Report 3676187681 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report wan Remaining VAT - Control PostingDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Entries - Action wanReclassToFixedAsset - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1964510777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set Next No. Series Line</source>
@@ -868,55 +268,120 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report wan Set Next No. Series Line - Control StartingDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4128088553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Statement Missing Lines</source>
+        <trans-unit id="PageExtension 3346869136 - Action 2134149939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1351594800">
+          <source>Set Next No. Series Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report wan VATStatement Missing Lines - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan No. Series - Action wanSetNextNoSeriesLine - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Query 3815257536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>wan VAT Statement Distinct Posting</source>
+        <trans-unit id="Page 2397255364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permissions</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Query wan VAT Statement Distinct - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2803858443 - Action 1054655392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
-          <source>Reclass to Fixed Asset</source>
+        <trans-unit id="Page 2397255364 - Action 4152454492 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View permission set details</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Entries - Action wanReclassToFixedAsset - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property AboutTitle</note>
         </trans-unit>
-        <trans-unit id="PageExtension 345082808 - Control 409105504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
-          <source>Income Glob. Dim. 1 Mandatory</source>
+        <trans-unit id="Page 2397255364 - Action 4152454492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit which feature objects users need to access, and set up the related permissions in permission sets that you can assign to the users.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Setup - Control wan Income Glob. Dim. 1 Mand. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 345082808 - Control 993772425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
-          <source>Income Glob. Dim. 2 Mandatory</source>
+        <trans-unit id="Page 2397255364 - Action 4152454492 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go here to see which permissions the selected permission set defines for which objects.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Ledger Setup - Control wan Income Glob. Dim. 2 Mand. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 2397255364 - Action 4152454492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Permissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Permissions - Action PermissionSetContent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 579887853 - Action 1257849630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2172518989">
+          <source>PermissionSets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan All Objects with Caption - Action PermissionSets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1003046996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Self Usage Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1003046996 - Field 1602339052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FA Subclass Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field FA Subclass Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1003046996 - Field 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Bus. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Gen. Bus. Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1003046996 - Field 1634984648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Disc. Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Invoice Disc. Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1003046996 - Field 1037119892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table wan Self Usage Account - Field Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2788995989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Self Usage Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2788995989 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2788995989 - Control 1634984648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoice Disc. Account No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Invoice Disc. Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2788995989 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Dimension Value field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page wan Self Usage Accounts - Control Item Category Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3307690539 - Action 1529028993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 320642379">
           <source>Inv. Disc. Acc. per Item Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan General Posting Setup - Action wanSelfUsageInvDiscAccounts - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3346869136 - Action 2134149939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1351594800">
-          <source>Set Next No. Series Line</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan No. Series - Action wanSetNextNoSeriesLine - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3680379754 - Control 595961814 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>Specifies the value of the Self Usage Customer No. field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension wan Sales &amp; Receivables Setup - Control wan Self Usage Customer No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3723569085 - Action 1844265029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1770625610">
-          <source>Add Missing VAT Lines</source>
+        <trans-unit id="TableExtension 3680379754 - Field 595961814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Self Usage Customer No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaMisc VAT Statement - Action wanAddMissingVATLines - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales &amp; Receivables Setup - Field wan Self Usage Customer No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3723569085 - Action 1844265029 - Method 1377591017 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3723569085">
-          <source>Do you want to add missing lines?</source>
+        <trans-unit id="PermissionSet 1049720984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WanaMisc Self-usage</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaMisc VAT Statement - Action wanAddMissingVATLines - Method OnAction - NamedType ConfirmLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaMisc_Self_Usage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1044792080 - Method 846556168 - NamedType 1387521371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Analyzing Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method AnalyzeData - NamedType ltAnalyzing</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do-you want to create an Excel book for %1 %2(s)?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1044792080 - Method 36190024 - NamedType 3415447349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WanaWho</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanaWho Users Excel - Method Export - NamedType FileNameLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1465072373 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2183420390">
           <source>Export WanaWho</source>
@@ -928,25 +393,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanaWho Users - Action Import - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3680379754 - Field 595961814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
-          <source>Self Usage Customer No.</source>
+        <trans-unit id="Codeunit 3479552115 - Method 1184802771 - NamedType 3871721722" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WARNING : Job queue "%1" error</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension wan Sales &amp; Receivables Setup - Field wan Self Usage Customer No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PermissionSet 1094897438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WanaMisc Dimensions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaMisc_DIM - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PermissionSet 1049720984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WanaMisc Self-usage</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaMisc_Self_Usage - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PermissionSet 2510262499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>WanaMisc VAT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WanaMisc_VAT - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit wan JobQueue Events Subscr. - Method OnAfterLogError - NamedType SubjectLbl</note>
         </trans-unit>
       </group>
     </body>

@@ -1,0 +1,17 @@
+namespace Wanamics.WanaMisc.SelfUsage;
+
+using Microsoft.Sales.Customer;
+using Microsoft.Sales.Setup;
+tableextension 87069 "wan Sales & Receivables Setup" extends "Sales & Receivables Setup"
+{
+    fields
+    {
+        field(87058; "wan Self Usage Customer No."; Code[20])
+        {
+            Caption = 'Self Usage Customer No.';
+            DataClassification = ToBeClassified;
+            TableRelation = Customer;
+            ValidateTableRelation = false;
+        }
+    }
+}

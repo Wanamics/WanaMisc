@@ -1,7 +1,0 @@
-pageextension 87060 "WanaMisc Customer Card" extends "Customer Card"
-{
-    layout
-    {
-        moveafter("No."; "VAT Registration No.")
-    }
-}

@@ -1,8 +1,8 @@
 {
-  "id": "e9b2f112-0e86-42a7-b94e-4cda9fa57894",
+  "id": "98b09b70-15b1-4669-ba0f-4b49a6b9a1c2",
   "name": "WanaMisc",
   "publisher": "Wanamics",
-  "version": "22.0.0.4",
+  "version": "27.0.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,11 +13,11 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "21.0.0.0",
+  "application": "26.0.0.0",
   "contextSensitiveHelpUrl": "https://www.wanamics.fr/WanaMisc/",
   "idRanges": [
     {
-      "from": 87050,
+      "from": 87060,
       "to": 87069
     }
   ],
@@ -26,7 +26,7 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "12.0",
+  "runtime": "15.0",
   "features": [
     "NoImplicitWith",
     "TranslationFile", 
