@@ -7,7 +7,7 @@ report 87068 "wan Employee - Trial Balance"
 //report 329 "Employee - Trial Balance"
 {
     DefaultLayout = RDLC;
-    RDLCLayout = './src/Employee/EmployeeTrialBalance.rdl';
+    RDLCLayout = './ReportLayouts/EmployeeTrialBalance.rdl';
     ApplicationArea = Basic, Suite;
     Caption = 'Employee - Trial Balance';
     PreviewMode = PrintLayout;
