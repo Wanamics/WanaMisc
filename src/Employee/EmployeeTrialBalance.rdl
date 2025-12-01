@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="No_EmployeeCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>No_EmployeeCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>No_EmployeeCaption</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+        </Field>
+        <Field Name="PeriodPeriodFilter">
+          <DataField>PeriodPeriodFilter</DataField>
+        </Field>
+        <Field Name="EmplPostGrpGroupTotal">
+          <DataField>EmplPostGrpGroupTotal</DataField>
+        </Field>
+        <Field Name="EmplTblCapEmplFilter">
+          <DataField>EmplTblCapEmplFilter</DataField>
+        </Field>
+        <Field Name="EmplFilter">
+          <DataField>EmplFilter</DataField>
+        </Field>
+        <Field Name="PeriodStartDate">
+          <DataField>PeriodStartDate</DataField>
+        </Field>
+        <Field Name="PeriodFilter">
+          <DataField>PeriodFilter</DataField>
+        </Field>
+        <Field Name="FiscalYearStartDate">
+          <DataField>FiscalYearStartDate</DataField>
+        </Field>
+        <Field Name="FiscalYearFilter">
+          <DataField>FiscalYearFilter</DataField>
+        </Field>
+        <Field Name="PeriodEndDate">
+          <DataField>PeriodEndDate</DataField>
+        </Field>
+        <Field Name="EmployeePostingGroup_Employee">
+          <DataField>EmployeePostingGroup_Employee</DataField>
+        </Field>
+        <Field Name="YTDTotal">
+          <DataField>YTDTotal</DataField>
+        </Field>
+        <Field Name="YTDTotalFormat">
+          <DataField>YTDTotalFormat</DataField>
+        </Field>
+        <Field Name="YTDCreditAmt">
+          <DataField>YTDCreditAmt</DataField>
+        </Field>
+        <Field Name="YTDCreditAmtFormat">
+          <DataField>YTDCreditAmtFormat</DataField>
+        </Field>
+        <Field Name="YTDDebitAmt">
+          <DataField>YTDDebitAmt</DataField>
+        </Field>
+        <Field Name="YTDDebitAmtFormat">
+          <DataField>YTDDebitAmtFormat</DataField>
+        </Field>
+        <Field Name="YTDBeginBalance">
+          <DataField>YTDBeginBalance</DataField>
+        </Field>
+        <Field Name="YTDBeginBalanceFormat">
+          <DataField>YTDBeginBalanceFormat</DataField>
+        </Field>
+        <Field Name="PeriodCreditAmt">
+          <DataField>PeriodCreditAmt</DataField>
+        </Field>
+        <Field Name="PeriodCreditAmtFormat">
+          <DataField>PeriodCreditAmtFormat</DataField>
+        </Field>
+        <Field Name="PeriodDebitAmt">
+          <DataField>PeriodDebitAmt</DataField>
+        </Field>
+        <Field Name="PeriodDebitAmtFormat">
+          <DataField>PeriodDebitAmtFormat</DataField>
+        </Field>
+        <Field Name="PeriodBeginBalance">
+          <DataField>PeriodBeginBalance</DataField>
+        </Field>
+        <Field Name="PeriodBeginBalanceFormat">
+          <DataField>PeriodBeginBalanceFormat</DataField>
+        </Field>
+        <Field Name="Name_Employee">
+          <DataField>Name_Employee</DataField>
+        </Field>
+        <Field Name="Name_EmployeeCaption">
+          <DataField>Name_EmployeeCaption</DataField>
+        </Field>
+        <Field Name="No_Employee">
+          <DataField>No_Employee</DataField>
+        </Field>
+        <Field Name="TotForFrmtEmplPostGrp">
+          <DataField>TotForFrmtEmplPostGrp</DataField>
+        </Field>
+        <Field Name="EmplTrialBalanceCap">
+          <DataField>EmplTrialBalanceCap</DataField>
+        </Field>
+        <Field Name="CurrReportPageNoCaption">
+          <DataField>CurrReportPageNoCaption</DataField>
+        </Field>
+        <Field Name="AmountsinLCYCaption">
+          <DataField>AmountsinLCYCaption</DataField>
+        </Field>
+        <Field Name="EmplWithEntryPeriodCapt">
+          <DataField>EmplWithEntryPeriodCapt</DataField>
+        </Field>
+        <Field Name="PeriodBeginBalCap">
+          <DataField>PeriodBeginBalCap</DataField>
+        </Field>
+        <Field Name="PeriodDebitAmtCaption">
+          <DataField>PeriodDebitAmtCaption</DataField>
+        </Field>
+        <Field Name="PeriodCreditAmtCaption">
+          <DataField>PeriodCreditAmtCaption</DataField>
+        </Field>
+        <Field Name="YTDTotalCaption">
+          <DataField>YTDTotalCaption</DataField>
+        </Field>
+        <Field Name="PeriodCaption">
+          <DataField>PeriodCaption</DataField>
+        </Field>
+        <Field Name="FiscalYearToDateCaption">
+          <DataField>FiscalYearToDateCaption</DataField>
+        </Field>
+        <Field Name="NetChangeCaption">
+          <DataField>NetChangeCaption</DataField>
+        </Field>
+        <Field Name="TotalinLCYCaption">
+          <DataField>TotalinLCYCaption</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

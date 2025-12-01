@@ -2,7 +2,7 @@
   "id": "e9b2f112-0e86-42a7-b94e-4cda9fa57894",
   "name": "WanaMisc",
   "publisher": "Wanamics",
-  "version": "27.0.0.0",
+  "version": "27.0.0.1",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -14,10 +14,10 @@
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "21.0.0.0",
-  "contextSensitiveHelpUrl": "https://www.wanamics.fr/WanaMisc/",
+  "contextSensitiveHelpUrl": "https://github.com/Wanamics/WanaMisc?tab=readme-ov-file#extension-wanamisc",
   "idRanges": [
     {
-      "from": 87050,
+      "from": 87060,
       "to": 87069
     }
   ],

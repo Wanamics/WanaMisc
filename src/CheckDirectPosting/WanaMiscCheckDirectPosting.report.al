@@ -75,7 +75,7 @@ report 87067 "WanaMisc Check Direct Posting"
         {
             Caption = 'Check Direct Posting';
             Type = Excel;
-            LayoutFile = './Layout/CheckDirectPosting.xlsx';
+            LayoutFile = './ReportLayouts/CheckDirectPosting.xlsx';
         }
     }
     var
