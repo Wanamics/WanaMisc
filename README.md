@@ -14,8 +14,7 @@ Elles ont en commun d’être indépendantes les unes des autres et de n’avoir
 - [Articles et stocks](#articles-et-stocks)
 - [Administration](#administration)
   - [Objets et autorisations](#objets-et-autorisations)
-- [Import des personnes (WanaWho)](#import-des-personnes-wanawho)
-  - [Utilisateurs](#utilisateurs)
+  - [Import des personnes (WanaWho)](#import-des-personnes-wanawho)
 
 
 ## Souches de N°
@@ -72,7 +71,10 @@ De plus, un **N° client livraison à soi-même** peut être défini en **Param�
 Dès lors, le **Prix unitaire** d’une ligne de document de vente relative à ce **N° client facturé** reprendra le **Coût unitaire** de cette même ligne (coût de transfert).
 
 ## Articles et stocks
-Depuis la liste des **Ecritures comptables article** le **N° document** est cliquable pour afficher le document concerné (plus simple et plus rapide que **Rechercher des écritures** puis sélection de la table associée).
+* Depuis la liste des **Ecritures comptables article** le **N° document** est cliquable pour afficher le document concerné (plus simple et plus rapide que **Rechercher des écritures** puis sélection de la table associée).
+* Depuis une **Feuille inventaire**, le traitement **Calculer quantité en stock** tient compte de la borne supérieure du **Filtre date** pour calculer la quantité.\
+  Il est ainsi possible de reconstituer le stock à cette date même si des mouements ont été validés à une **Date comptabilisation** postérieure.\
+  Notez que la **Date comptabilisation** indiquée en **Options** n'est pas prise en compte à cet effet.
 
 ## Administration
 ### Objets et autorisations
@@ -83,13 +85,13 @@ Reste à savoir dans quel(s) ensemble(s) d’autorisations il est présent pour 
 Recherchez **Tous les objets avec libellé**.
 Sélectionnez l’objet souhaité puis l’action **Ensembles d’autorisation**.
 
-## Import des personnes (WanaWho)
+### Import des personnes (WanaWho)
 Une même personne peut être définie comme :
 
 * Utilisateur de Business Central avec
-  * ses autorisations, 
-  * son profil,
-  * ses **Paramètres utilisateur**)
+  * ses autorisations
+  * ses Préférences (rôle, langue...)
+  * ses **Paramètres utilisateur**
 * Vendeur/acheteur
 * Salarié
 * Ressource
@@ -98,7 +100,7 @@ Cette fonction n’a d’autre ambition que de faciliter la mise à jour des inf
 ![WanaWho](images/wanawho.png)
 
 
-### Utilisateurs
+**Utilisateurs**
 Les actions suivantes sont ajoutées à la liste des utilisateurs :
 ![Utilisateurs](images/utilisateurs.png)
 
